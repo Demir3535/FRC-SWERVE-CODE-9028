@@ -1,7 +1,7 @@
-This repository was developed by FRC Team 9028’s software subteam We are using FLYSKY FS-I6X for control the drivetrain.
+This repository was developed by FRC Team 9028’s software subteam. We use the FlySky FS-i6X controller to operate the drivetrain.
 
-We are using 8 SparkMax 8 Neo Motors for drivetrain
+Our drivetrain setup includes 8 Spark Max motor controllers and 8 Neo motors.
 
-If you have a questin yo can contact us Instagram @gforce9028
+If you have any questions, feel free to contact us on Instagram: @gforce9028.
 
 ![image](https://github.com/user-attachments/assets/67f4a31c-db28-4749-bf2e-a297bc9d8033)
