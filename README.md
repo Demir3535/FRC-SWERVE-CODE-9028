@@ -1,4 +1,4 @@
-This repository was developed by FRC Team 9028’s software subteam. We use the FlySky FS-i6X controller to operate the drivetrain.
+This repository was developed by FRC Team 85575’s software subteam. And this code is change to 9028 swerve settings. We use the FlySky FS-i6X controller to operate the drivetrain.
 
 Our drivetrain setup includes 8 Spark Max motor controllers and 8 Neo motors.
 
