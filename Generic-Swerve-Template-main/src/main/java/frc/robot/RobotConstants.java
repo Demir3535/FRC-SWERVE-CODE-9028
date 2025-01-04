@@ -28,7 +28,7 @@ public final class RobotConstants {
 
         // Driving Parameters - Note that these are not the maximum capable speeds of
         // the robot, rather the allowed maximum speeds
-        public static final double MAX_SPEED_METERS_PER_SECOND = 6; // 4.42; //4.8;
+        public static final double MAX_SPEED_METERS_PER_SECOND = 6 ; // 4.42; //4.8;
         public static final double MAX_ANGULAR_SPEED_RADIANS_PER_SECOND = 2 * Math.PI; // radians per second
 
         public static final double DIRECTION_SLEW_RATE = 25;// radians per second
@@ -125,20 +125,20 @@ public final class RobotConstants {
     public static interface PortConstants {
 
         public static class CAN {
-            public static final int FRONT_LEFT_DRIVING = 8;
-            public static final int REAR_LEFT_DRIVING = 6;
-            public static final int FRONT_RIGHT_DRIVING = 4;
-            public static final int REAR_RIGHT_DRIVING = 2;
+            public static final int FRONT_LEFT_DRIVING = 7;
+            public static final int REAR_LEFT_DRIVING = 5;
+            public static final int FRONT_RIGHT_DRIVING = 3;
+            public static final int REAR_RIGHT_DRIVING = 1;
 
-            public static final int FRONT_LEFT_TURNING = 7;
-            public static final int REAR_LEFT_TURNING = 5;
-            public static final int FRONT_RIGHT_TURNING = 3;
-            public static final int REAR_RIGHT_TURNING = 1;
+            public static final int FRONT_LEFT_TURNING = 8;
+            public static final int REAR_LEFT_TURNING = 6;
+            public static final int FRONT_RIGHT_TURNING = 4;
+            public static final int REAR_RIGHT_TURNING = 2;
 
-            public static final int FRONT_LEFT_CANCODERID = 4;
-            public static final int FRONT_RIGHT_CANCODERID = 2;
-            public static final int REAR_LEFT_CANCODERID = 3;
-            public static final int REAR_RIGHT_CANCODERID = 1;
+            public static final int FRONT_LEFT_CANCODERID = 13;
+            public static final int FRONT_RIGHT_CANCODERID = 11;
+            public static final int REAR_LEFT_CANCODERID = 12;
+            public static final int REAR_RIGHT_CANCODERID = 10;
 
         }
 
@@ -149,8 +149,8 @@ public final class RobotConstants {
             public static final int OPERATOR_JOYSTICK = 1;
 
             // Joystick Axis
-            public static final int DRIVE_COMMAND_X_AXIS = 1;
-            public static final int DRIVE_COMMAND_Y_AXIS = 3;
+            public static final int DRIVE_COMMAND_X_AXIS = 3;
+            public static final int DRIVE_COMMAND_Y_AXIS = 1;
             public static final int DRIVE_COMMAND_ROT_AXIS = 0;
         }
     }
@@ -188,14 +188,14 @@ public final class RobotConstants {
     }
 
     public static final class TeleopConstants {
-        public static final double MAX_SPEED_PERCENT = 1; // ex: 0.4 -> 40%
+        public static final double MAX_SPEED_PERCENT = 0.6; // ex: 0.4 -> 40%
     }
 
     public static final class PathPlannerConstants {
         public static final Alliance DEFAULT_ALLIANCE = Alliance.Blue;
 
-        public static final double kMaxAngularAcceleration = 4 * Math.PI;
-        public static final double kMaxAccelerationMetersPerSecondSquared = 3.00;
+        public static final double kMaxAngularAcceleration = 1 * Math.PI;
+        public static final double kMaxAccelerationMetersPerSecondSquared = 1.00;
 
         public static final PathConstraints DEFAULT_PATH_CONSTRAINTS = new PathConstraints(
                 DrivetrainConstants.MAX_SPEED_METERS_PER_SECOND,
